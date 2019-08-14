@@ -2,11 +2,7 @@ package pl.n2god.downloader.main;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class DownloadParagraph {
@@ -18,6 +14,5 @@ public class DownloadParagraph {
         System.out.println(h1);
         System.out.println("-------");
         System.out.println(paragraph);
-
     }
 }
